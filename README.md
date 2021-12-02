@@ -321,6 +321,39 @@ Once you tell Git which code you want, you can save the file and proceed with th
 
 Git relies on you to reconcile the conflicting changes.
 
+## How to create new repository?
+
+```git init repository_name
+```
+
+## Convert existing project into repository
+
+```
+git init
+```
+
+or
+
+from anywhere in the computer :
+
+```
+git init path/to/project
+```
+
+## Repository clone
+
+> When we need to join existing project, or contienue working on a prject from a different machine we use git clone
+
+```
+git clone url_of_repository
+```
+
+
+
+
+
+
+
 
 
 
