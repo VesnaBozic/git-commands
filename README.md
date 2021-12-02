@@ -3,61 +3,33 @@
 ## Summary
 
 [What is version control system?](#what-is-version-control-system)
-
 [What is Git repository?](#what-is-git-repository)
-
 [What is .git?](#what-si-git)
-
 [Git status](#git-status)
-
 [Git diff](#git-diff)
-
 [How we save save changes that are in the staging area?](#how-we-save-changes-that-are-in-te-staging-area)
-
 [Git add](#git-add)
-
 [Git commit](#git-commit)
-
 [Git push](#git-push)
-
+[Git log](#git-log)
 [How can I change email for git in Bash?](#how-can-i-change-email-for-git-in-bash)
-
 [Git checkout](#git-checkout)
-
 [How to restore old version of file?](#how-to-restore-old-version-of-file)
-
 [Git reset](#git-reset)
-
 [Reversing files](#reversing-files)
-
 [What is branch?](#what-is-branch)
-
 [What is master branch?](#what-is-master-branch)
-
 [Differences between branches](#differences-between-branches)
-
 [Switching branches](#switching-branches)
-
 [Creating branch](#creating-branch)
-
 [Merging branches](#merging-branches)
-
 [Conflicts](#conflicts)
-
 [How to create new repository?](#how-to-create-new-repository)
-
 [Convert existing project into repository](#convert-existing-project-into-repository)
-
 [Repository clone](#repository-clone)
-
 [How to see from copy of repository url of the repository?](#how-to-see-from-copy-of-repository-url-of-the-repository)
-
 [Git pull](#git-pull)
-
 [Trying to pull when we have unsaved changes](#trying-to-pull-when-we-have-unsaved-changes)
-
-## git log
-
 
 
 ## What is version control system?
