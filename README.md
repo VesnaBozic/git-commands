@@ -21,12 +21,12 @@
 git status
 ```
 > With **git status** command we display a list of the files that have been modified since the last time changes were saved. This changes are stored in a staging area. While changes are in the staging are we can still change them. But once we added them to the repository, we can't make changes anymore in that commit.
-> git status shows files in staging area
+> git status shows files in staging area.
 
-## git diff
+## Git diff
 ```bash
 git diff filename
 ```
-> with **git diff** we can compare the changed file in the staging area with the last saved version of that file
-> just **git diff** will show all changes in the repository
+> With **git diff** we can compare the changed file in the staging area with the last saved version of that file.
+> Just **git diff** will show all changes in the repository.
 > **git diff directory** will show all the changes in the directory
