@@ -345,8 +345,10 @@ git init path/to/project
 > When we need to join existing project, or contienue working on a prject from a different machine we use git clone
 
 ```
-git clone url_of_repository
+git clone https://github.com/VesnaBozic/Git-Tutorial.git
 ```
+
+##
 
 
 
