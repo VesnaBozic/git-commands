@@ -106,5 +106,11 @@ for quit press
 q
 ```
 
+To see history of a specific file or directory
+```
+git log path/to/file
+```
+
+
 
 
