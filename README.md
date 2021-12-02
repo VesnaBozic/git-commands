@@ -92,4 +92,19 @@ git push origin main
 ```
 to push our local changes to our online repository.
 
+### git log
+> is used to see the log of the repository's history
+
+![git log](/assets/img/git_log.jpg)
+
+>commit line shows hash (ID for the commit)
+
+>it says who made change, when and what and commit message
+
+for quit press
+```
+q
+```
+
+
 
