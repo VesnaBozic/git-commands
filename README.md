@@ -2,7 +2,11 @@
 
 ## Summary
 
-[What is version control system?](#what-is-version-control-system?)
+[What is version control system?](#what-is-version-control-system)
+
+[What is Git repository?](#what-is-git-repository)
+
+[Git commit](#git-commit)
 
 ## What is version control system?
 
