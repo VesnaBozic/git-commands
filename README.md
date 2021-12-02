@@ -377,23 +377,13 @@ we can pull changes from origin repository to our cloned one
 >that is usually done when we are pull changes that our collaborators made
 
 
+## Trying to pull when we have unsaved changes
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+git checkout --
+git pull
+```
+this will discard our unsaved changes
 
 
 
