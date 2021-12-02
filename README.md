@@ -2,34 +2,34 @@
 
 ## Summary
 
-[What is version control system?](#what-is-version-control-system)
-[What is Git repository?](#what-is-git-repository)
-[What is .git?](#what-si-git)
-[Git status](#git-status)
-[Git diff](#git-diff)
-[How we save save changes that are in the staging area?](#how-we-save-changes-that-are-in-te-staging-area)
-[Git add](#git-add)
-[Git commit](#git-commit)
-[Git push](#git-push)
-[Git log](#git-log)
-[How can I change email for git in Bash?](#how-can-i-change-email-for-git-in-bash)
-[Git checkout](#git-checkout)
-[How to restore old version of file?](#how-to-restore-old-version-of-file)
-[Git reset](#git-reset)
-[Reversing files](#reversing-files)
-[What is branch?](#what-is-branch)
-[What is master branch?](#what-is-master-branch)
-[Differences between branches](#differences-between-branches)
-[Switching branches](#switching-branches)
-[Creating branch](#creating-branch)
-[Merging branches](#merging-branches)
-[Conflicts](#conflicts)
-[How to create new repository?](#how-to-create-new-repository)
-[Convert existing project into repository](#convert-existing-project-into-repository)
-[Repository clone](#repository-clone)
-[How to see from copy of repository url of the repository?](#how-to-see-from-copy-of-repository-url-of-the-repository)
-[Git pull](#git-pull)
-[Trying to pull when we have unsaved changes](#trying-to-pull-when-we-have-unsaved-changes)
+[What is version control system?](#what-is-version-control-system) :green_circle:
+[What is Git repository?](#what-is-git-repository) :green_circle:
+[What is .git?](#what-si-git) :green_circle:
+[Git status](#git-status) :green_circle:
+[Git diff](#git-diff) :green_circle:
+[How we save save changes that are in the staging area?](#how-we-save-changes-that-are-in-te-staging-area) :green_circle:
+[Git add](#git-add) :green_circle:
+[Git commit](#git-commit) :green_circle:
+[Git push](#git-push) :green_circle:
+[Git log](#git-log) :green_circle:
+[How can I change email for git in Bash?](#how-can-i-change-email-for-git-in-bash) :green_circle:
+[Git checkout](#git-checkout) :green_circle:
+[How to restore old version of file?](#how-to-restore-old-version-of-file) :green_circle:
+[Git reset](#git-reset) :green_circle:
+[Reversing files](#reversing-files) :green_circle:
+[What is branch?](#what-is-branch) :green_circle:
+[What is master branch?](#what-is-master-branch) :green_circle:
+[Differences between branches](#differences-between-branches) :green_circle:
+[Switching branches](#switching-branches) :green_circle:
+[Creating branch](#creating-branch) :green_circle:
+[Merging branches](#merging-branches) :green_circle:
+[Conflicts](#conflicts) :green_circle:
+[How to create new repository?](#how-to-create-new-repository) :green_circle:
+[Convert existing project into repository](#convert-existing-project-into-repository) :green_circle:
+[Repository clone](#repository-clone) :green_circle:
+[How to see from copy of repository url of the repository?](#how-to-see-from-copy-of-repository-url-of-the-repository) :green_circle:
+[Git pull](#git-pull) :green_circle:
+[Trying to pull when we have unsaved changes](#trying-to-pull-when-we-have-unsaved-changes) :green_circle:
 
 
 ## What is version control system?
