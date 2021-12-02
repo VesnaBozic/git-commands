@@ -121,6 +121,7 @@ git push origin main
 ```
 to push our local changes to our online repository.
 
+
 ## git log
 
 > is used to see the log of the repository's history
@@ -348,7 +349,34 @@ git init path/to/project
 git clone https://github.com/VesnaBozic/Git-Tutorial.git
 ```
 
-##
+## How to se from copy of repository on our computer url of the repository?
+
+```
+git remote -v
+```
+
+![git remote](/assets/img/git_remote.jpg)
+
+with 
+
+```git remote
+```
+
+we get list of all remotes
+
+## git pull
+
+with
+
+```
+git pull
+```
+
+we can pull changes from origin repository to our cloned one
+
+>that is usually done when we are pull changes that our collaborators made
+
+
 
 
 
