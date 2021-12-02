@@ -1,5 +1,9 @@
 # Git Tutorial
 
+## Summary
+
+[What is version control system?](#what-is-version-control-system?)
+
 ## What is version control system?
 
 > A version control system is a tool that manages changes made to the files and directories in a project. Every version that ever existed is stored in the repository.
