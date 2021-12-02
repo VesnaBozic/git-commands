@@ -63,18 +63,25 @@ git push
 ## git add
 with
 
-```git add . ```
+```
+git add .
+```
 
 we add all files
 
 with 
-```git add path/to/file```
+
+```
+git add path/to/file
+```
 
  we add that specific file, when we don't want to commit all the changes, but just part, or maybe do it in more commits
  
  with
  
- ```git reset HEAD```
+ ```
+ git reset HEAD
+ ```
  
  we can reset last commit
 
@@ -96,6 +103,7 @@ with
 > you must enter log message with commit
 
 > if you want to change log message you can do it with
+
 ```
 git commit --amend - m "new message"
 ```
@@ -114,6 +122,7 @@ git push origin main
 to push our local changes to our online repository.
 
 ## git log
+
 > is used to see the log of the repository's history
 
 ![git log](/assets/img/git_log.jpg)
@@ -122,12 +131,22 @@ to push our local changes to our online repository.
 
 >it says who made change, when and what and commit message
 
+with 
+
+```
+git log -4 README.md
+```
+
+we can see last three commits involving README.md
+
 for quit press
+
 ```
 q
 ```
 
 To see history of a specific file or directory
+
 ```
 git log path/to/file
 ```
@@ -140,6 +159,7 @@ git log path/to/file
 > is a file in root directory for storing files we don't want Git to pay attention to
 
 if we write in git ignore
+
 ```
 *.txt
 run
@@ -150,13 +170,17 @@ it will ignore any file or directory called run and every file with .txt extensi
 
 with
 
-```git clean -n ```
+```
+git clean -n
+```
 
 we can see a list of files that are in repository but not commited (tracked), only work with ubtracked files whose history hasn't been saved
 
 with 
 
-```git clean -f```
+```
+git clean -f
+```
 
 we can delete those files and they are deleted for good
 
@@ -164,15 +188,97 @@ we can delete those files and they are deleted for good
 
 with 
 
-```git config --list```
+```
+git config --list
+```
 
 we can see settings
 
 ## How can I change email for git in Bash?
 
-```git config --global user.email mymail@gmail.com ```
+```
+git config --global user.email mymail@gmail.com 
+```
 
-## 
+## git checkout
+
+with 
+
+```
+git checkout -- path/to/file
+```
+
+we can undo changes that we staged with git add
+
+## How to restor old version of file?
+
+with
+
+```
+git log
+```
+
+we can see hash ID of the commit
+
+![git log](/assets/img/git_log.jpg)
+
+then we use first 6 characters of hash
+
+```
+git checkout 5382de README.md
+```
+
+and it wound replace current version with this version
+
+It would not erese any commit history, it would show just as new commit
+
+## git reset
+
+with
+
+```
+git reset
+```
+
+we can unstaged everything
+
+## reversing files
+
+with
+
+```
+git checkout --
+```
+
+we can also revert all files
+
+
+## What is branch?
+
+Git allows you to create branches, one branch represent different version of your work and you can trach each version systematically.
+
+Change you make in one branch doesn't affect other branches, until you merge them together
+
+## What is master branch?
+
+Every repository has master branch. Master is a naming convention for a branch. It means it is a repository's default branch.
+
+## git branch
+
+with
+
+``` 
+git branch
+```
+
+we can list all the branches in a repository
+
+
+
+
+
+
+
 
 
 
