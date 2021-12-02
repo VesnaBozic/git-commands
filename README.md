@@ -22,6 +22,12 @@ git status
 > With ***git status*** command we display a list of the files that have been modified since the last time changes were saved. These changes are stored in a staging area. While changes are in the staging area we can still change them. But once we added them to the repository, we can't make changes anymore in that commit.
 > git status shows files in staging area.
 
+>git status show us files that are not tracked by git and they are not listed in the tree
+
+>the untracked files won't benefit from version control, so with git status we can see them
+
+>when we add and commit files git starts tracking them
+
 ## Git diff
 ```bash
 git diff filename
@@ -54,21 +60,23 @@ git commit -m "message about changes"
 git push
 ```
 
-### git add
+## git add
 > git add .  means add all files
 
 > git add filename means add that specific file
 
-### git diff -r HEAD
+## git diff -r HEAD
 > we can use to compare the state of files with changes in the stagind area
 
 > -r means compare to a particular revison
 
-> HEAD means compare with the last commit
+> HEAD always means last commit
+
+> HEAD~1 - means commit before last commit and so on
 
 > git diff -r HEAD path/to/file
 
-### git commit
+## git commit
 
 > we use to save all the changes. It always save everything that is in the staging area. If you want to undo commit you must undo everything.
 
@@ -79,7 +87,7 @@ git push
 git commit --amend - m "new message"
 ```
 
-### git push
+## git push
 
 > command used to upload local repository to a remote repo.
 
@@ -92,7 +100,7 @@ git push origin main
 ```
 to push our local changes to our online repository.
 
-### git log
+## git log
 > is used to see the log of the repository's history
 
 ![git log](/assets/img/git_log.jpg)
@@ -110,6 +118,49 @@ To see history of a specific file or directory
 ```
 git log path/to/file
 ```
+
+## git annonate file
+>shows who made changes to each line and when
+
+## .git ignore
+
+> is a file in root directory for storing files we don't want Git to pay attention to
+
+if we write in git ignore
+```
+*.txt
+run
+```
+it will ignore any file or directory called run and every file with .txt extension
+
+## git clean
+
+with
+
+```git clean -n ```
+
+we can see a list of files that are in repository but not commited (tracked), only work with ubtracked files whose history hasn't been saved
+
+with 
+
+```git clean -f```
+
+we can delete those files and they are deleted for good
+
+## How to configure Git?
+
+with 
+
+```git config --list```
+
+we can see settings
+
+## How can I cange email for git in Bash?
+
+```git config --global user.email mymail@gmail.com ```
+
+## 
+
 
 
 
