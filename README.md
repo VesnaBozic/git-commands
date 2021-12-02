@@ -31,4 +31,4 @@ git diff filename
 > Just **git diff** will show all changes in the repository.
 > **git diff directory** will show all the changes in the directory
 
-![This is an image](git_diff.jpg)
+![git diff](/assets/img/git_diff.jpg)
