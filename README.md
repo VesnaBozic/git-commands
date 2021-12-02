@@ -61,9 +61,22 @@ git push
 ```
 
 ## git add
-> git add .  means add all files
+with
 
-> git add filename means add that specific file
+```git add . ```
+
+we add all files
+
+with 
+```git add path/to/file```
+
+ we add that specific file, when we don't want to commit all the changes, but just part, or maybe do it in more commits
+ 
+ with
+ 
+ ```git reset HEAD```
+ 
+ we can reset last commit
 
 ## git diff -r HEAD
 > we can use to compare the state of files with changes in the stagind area
@@ -155,7 +168,7 @@ with
 
 we can see settings
 
-## How can I cange email for git in Bash?
+## How can I change email for git in Bash?
 
 ```git config --global user.email mymail@gmail.com ```
 
