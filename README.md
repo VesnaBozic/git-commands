@@ -324,7 +324,9 @@ Git relies on you to reconcile the conflicting changes.
 
 ## How to create new repository?
 
-```git init repository_name
+```
+git init repository_name
+
 ```
 
 ## Convert existing project into repository
@@ -359,7 +361,8 @@ git remote -v
 
 with 
 
-```git remote
+```
+git remote
 ```
 
 we get list of all remotes
