@@ -56,14 +56,40 @@ git push
 
 ### git add
 > git add .  means add all files
+
 > git add filename means add that specific file
 
 ### git diff -r HEAD
 > we can use to compare the state of files with changes in the stagind area
+
 > -r means compare to a particular revison
+
 > HEAD means compare with the last commit
+
 > git diff -r HEAD path/to/file
 
 ### git commit
+
 > we use to save all the changes. It always save everything that is in the staging area. If you want to undo commit you must undo everything.
+
 > you must enter log message with commit
+
+> if you want to change log message you can do it with
+```
+git commit --amend - m "new message"
+```
+
+### git push
+
+> command used to upload local repository to a remote repo.
+
+Pushing is how we transfer commits from our local repository to a remote repo.
+
+We usually run 
+
+```bash 
+git push origin main
+```
+to push our local changes to our online repository.
+
+
