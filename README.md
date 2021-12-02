@@ -273,6 +273,60 @@ git branch
 
 we can list all the branches in a repository
 
+* next to the name of the branch means that we are currently working in that branch
+
+## Differences between branches
+
+```
+git diff branch1..branch2
+```
+
+## Switching branches
+
+```
+git checkout name-of-the-branch
+```
+
+## Creating branch
+
+```
+git checkout -b name-of-the-branch
+```
+
+>the content of the created branch will be sam as the content of master branch when we create it
+
+> When we start making changes it will only affected branch
+
+## Merging branches
+
+it means bringing branches back together
+
+if changes don't overlap the result is new commit, that includes every changes from branch to master branch
+
+if conflicts exist we need to solve them first
+
+``` 
+git merge branch master
+```
+
+## Conflicts
+
+A merge conflict is an event that occurs when Git is unable to automatically resolve differences in code between two commits. When all the changes in the code occur on different lines or in different files, Git will successfully merge commits without your help.
+
+However, when there are conflicting changes on the same lines, a “merge conflict” occurs because Git doesn’t know which code to keep and which to discard.
+
+If Git detects a conflict, it will highlight the conflicted area and ask which code you wish to keep.
+
+Once you tell Git which code you want, you can save the file and proceed with the merge, rebase, or cherry pick.
+
+Git relies on you to reconcile the conflicting changes.
+
+
+
+
+
+
+
 
 
 
