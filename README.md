@@ -14,19 +14,19 @@
 
 [How we save save changes that are in the staging area?](#how-we-save-changes-that-are-in-te-staging-area)
 
-[Git add](#git-add]
+[Git add](#git-add)
 
 [Git commit](#git-commit)
 
 [Git push](#git-push)
 
-[How can I change email for git in Bash?[(#how-can-i-change-email-for-git-in-bash)
+[How can I change email for git in Bash?](#how-can-i-change-email-for-git-in-bash)
 
 [Git checkout](#git-checkout)
 
 [How to restore old version of file?](#how-to-restore-old-version-of-file)
 
-[Git reset](#git-reset]
+[Git reset](#git-reset)
 
 [Reversing files](#reversing-files)
 
