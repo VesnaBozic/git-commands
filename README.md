@@ -6,7 +6,59 @@
 
 [What is Git repository?](#what-is-git-repository)
 
+[What is .git?](#what-si-git)
+
+[Git status](#git-status)
+
+[Git diff](#git-diff)
+
+[How we save save changes that are in the staging area?](#how-we-save-changes-that-are-in-te-staging-area)
+
+[Git add](#git-add]
+
 [Git commit](#git-commit)
+
+[Git push](#git-push)
+
+[How can I change email for git in Bash?[(#how-can-i-change-email-for-git-in-bash)
+
+[Git checkout](#git-checkout)
+
+[How to restore old version of file?](#how-to-restore-old-version-of-file)
+
+[Git reset](#git-reset]
+
+[Reversing files](#reversing-files)
+
+[What is branch?](#what-is-branch)
+
+[What is master branch?](#what-is-master-branch)
+
+[Differences between branches](#differences-between-branches)
+
+[Switching branches](#switching-branches)
+
+[Creating branch](#creating-branch)
+
+[Merging branches](#merging-branches)
+
+[Conflicts](#conflicts)
+
+[How to create new repository?](#how-to-create-new-repository)
+
+[Convert existing project into repository](#convert-existing-project-into-repository)
+
+[Repository clone](#repository-clone)
+
+[How to see from copy of repository url of the repository?](#how-to-see-from-copy-of-repository-url-of-the-repository)
+
+[Git pull](#git-pull)
+
+[Trying to pull when we have unsaved changes](#trying-to-pull-when-we-have-unsaved-changes)
+
+## git log
+
+
 
 ## What is version control system?
 
@@ -60,6 +112,16 @@ git diff filename
 
 > a line starting with ***@@*** tells us where the changes are being made
 
+> we can use to compare the state of files with changes in the stagind area
+
+> -r means compare to a particular revison
+
+> HEAD always means last commit
+
+> HEAD~1 - means commit before last commit and so on
+
+> git diff -r HEAD path/to/file
+
 ## How we save save changes that are in the staging area?
 
 ```bash
@@ -93,16 +155,6 @@ git add path/to/file
  
  we can reset last commit
 
-## git diff -r HEAD
-> we can use to compare the state of files with changes in the stagind area
-
-> -r means compare to a particular revison
-
-> HEAD always means last commit
-
-> HEAD~1 - means commit before last commit and so on
-
-> git diff -r HEAD path/to/file
 
 ## git commit
 
@@ -359,7 +411,7 @@ git init path/to/project
 git clone https://github.com/VesnaBozic/Git-Tutorial.git
 ```
 
-## How to se from copy of repository on our computer url of the repository?
+## How to see from copy of repository on our computer url of the repository?
 
 ```
 git remote -v
