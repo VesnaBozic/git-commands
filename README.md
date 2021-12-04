@@ -1,9 +1,9 @@
 # Git Tutorial
 
 ## Summary
-
-:arrow_right:[What is Git repository?](#what-is-git-repository)
-:arrow_right:[.git?](#.git)
+:arrow_right:[What is version control system?](#what-is-version-control-system)
+:arrow_right:[What is in Git repository?](#what-is-in-git-repository)
+:arrow_right:[What is .git?](#what-is-git)
 :arrow_right:[Git status](#git-status) 
 :arrow_right:[Git diff](#git-diff) 
 [How we save save changes that are in the staging area?](#how-we-save-changes-that-are-in-te-staging-area) 
