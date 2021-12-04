@@ -242,7 +242,7 @@ git checkout -- path/to/file
 
 we can undo changes that we staged with git add
 
-## How to restor old version of file?
+## How to restore old version of file?
 
 with
 
