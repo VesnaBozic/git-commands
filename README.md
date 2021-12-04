@@ -93,7 +93,7 @@ git diff filename
 
 > git diff -r HEAD path/to/file
 
-## How we save save changes that are in the staging area?
+## How we save changes that are in the staging area?
 
 ```bash
 git add .
