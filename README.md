@@ -26,7 +26,7 @@
 :arrow_right:[How to create new repository?](#how-to-create-new-repository) 
 :arrow_right:[Convert existing project into repository](#convert-existing-project-into-repository) 
 :arrow_right:[Repository clone](#repository-clone) 
-:arrow_right:[How to see from copy of repository url of the repository?](#how-to-see-from-copy-of-repository-url-of-the-repository) 
+:arrow_right:[How to see from copy of repository on our computer url of the repository?](#how-to-see-from-copy-of-repository-on-our-computer-url-of-the-repository) 
 :arrow_right:[Git pull](#git-pull) 
 :arrow_right:[Trying to pull when we have unsaved changes](#trying-to-pull-when-we-have-unsaved-changes) 
 
