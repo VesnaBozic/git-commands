@@ -2,10 +2,10 @@
 
 ## Summary
 
-:arrow_right: [What is Git repository?](#what-is-git-repository)
+:arrow_right:[What is Git repository?](#what-is-git-repository)
 :arrow_right:[What is .git?](#what-si-git)
 :arrow_right:[Git status](#git-status) 
-[Git diff](#git-diff) 
+:arrow_right:[Git diff](#git-diff) 
 [How we save save changes that are in the staging area?](#how-we-save-changes-that-are-in-te-staging-area) 
 [Git add](#git-add) 
 [Git commit](#git-commit)
