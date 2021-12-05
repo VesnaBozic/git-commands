@@ -41,7 +41,7 @@
 
 ## What is in Git repository?
 
-> Combination of collection of files and directories and history of the changes on the project (different versions of the project)
+> Combination of collection of files and directories and history of the changes on the project (different versions of the project).
 
 ## What is .git?
 > In .git are located all extra informations about repository. .git directory is in the root directory of the repository. We should never delete or change .git.
