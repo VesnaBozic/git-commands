@@ -11,7 +11,8 @@
 :arrow_right:[Git commit](#git-commit)
 :arrow_right:[Git push](#git-push) 
 :arrow_right:[Git log](#git-log) 
-:arrow_right:[How can I change email for git in Bash?](#how-can-i-change-email-for-git-in-bash) 
+:arrow_right:[How can I change email for git in Bash?](#how-can-i-change-email-for-git-in-bash)
+:arrow_right:[How can I change email for git in Bash?](#how-can-i-know-my-local-git-email-adresss)
 :arrow_right:[Git checkout](#git-checkout) 
 :arrow_right:[How to restore old version of file?](#how-to-restore-old-version-of-file) 
 :arrow_right:[Git reset](#git-reset) 
@@ -230,6 +231,12 @@ we can see settings
 
 ```
 git config --global user.email mymail@gmail.com 
+```
+
+## How can I know my local Git email adresss?
+
+```
+git config --global user.email
 ```
 
 ## git checkout
