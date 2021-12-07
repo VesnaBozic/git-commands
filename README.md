@@ -1,6 +1,8 @@
 # Git Tutorial
 
 ## Summary
+- [What is GitHub?](#what-is-github)
+- [What is Git?](#what-is-git)
 - [What is version control system?](#what-is-version-control-system)
 - [What is in Git repository?](#what-is-in-git-repository)
 - [What is .git?](#what-is-git)
@@ -31,6 +33,13 @@
 - [Git pull](#git-pull) 
 - [Trying to pull when we have unsaved changes](#trying-to-pull-when-we-have-unsaved-changes) 
 
+## What is GitHub?
+
+GitHub is a Git repositpry hosting service provided by GitHub Inc. 
+
+## What is Git?
+
+Git is open-source, decentralized, distributed version control system.
 
 ## What is version control system?
 
@@ -42,10 +51,10 @@
 
 ## What is in Git repository?
 
-> Combination of collection of files and directories and history of the changes on the project (different versions of the project).
+> Combination of collection of files and directories and history of all the changes on the project (different versions of the project).
 
 ## What is .git?
-> In .git are located all extra informations about repository. .git directory is in the root directory of the repository. We should never delete or change .git.
+> In .git are located all extra informations about repository. .git directory is in the root directory of the repository. We should never delete or change .git. 
 
 ## Git status
 ```bash
@@ -130,6 +139,10 @@ git add path/to/file
 
 ## git commit
 
+Git works by saving the current state of all its files it manages into sanpshots called commits.
+
+Commit can contain one or many file changes.
+
 > we use to save all the changes. It always save everything that is in the staging area. If you want to undo commit you must undo everything.
 
 > you must enter log message with commit
@@ -139,6 +152,8 @@ git add path/to/file
 ```
 git commit --amend - m "new message"
 ```
+
+As we make changes commits are saved onto timeline, known as branch.
 
 ## git push
 
@@ -300,7 +315,8 @@ Change you make in one branch doesn't affect other branches, until you merge the
 
 ## What is master branch?
 
-Every repository has master branch. Master is a naming convention for a branch. It means it is a repository's default branch.
+A Git repository will noramlly have at least one branch, and by default that branch is calles master. Additional branches can be created.
+
 
 ## git branch
 
