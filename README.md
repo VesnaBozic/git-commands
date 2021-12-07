@@ -35,7 +35,7 @@
 
 ## What is GitHub?
 
-GitHub is a Git repositpry hosting service provided by GitHub Inc. 
+GitHub is a Git repository hosting service provided by GitHub Inc. 
 
 ## What is Git?
 
